@@ -19,6 +19,7 @@ function App() {
         .catch((err) => console.log(err));
 
       setData(response.data);
+      console.log(response.data);
     }
     getCharacter();
   }, []);

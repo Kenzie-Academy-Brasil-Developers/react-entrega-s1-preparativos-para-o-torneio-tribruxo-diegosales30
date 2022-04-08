@@ -1,5 +1,4 @@
 import "./Characters.css";
-import { useState } from "react";
 
 const Characters = ({
   renderCharacter,
